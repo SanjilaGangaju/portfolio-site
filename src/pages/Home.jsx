@@ -13,7 +13,7 @@ const Home = () => {
       <span>Frontend Developer in the Making</span>
       <span className='w-16'><hr></hr></span></p>
       <div className='flex gap-5 w-full items-center justify-center text-redwood  cursor-pointer'>
-        <button className='bg-redwood rounded px-3 hover:bg-red-900 text-center' ><Link to="/about-me" className='text-2xl text-white font-saint '>more about me</Link></button>
+        <button className='bg-redwood rounded px-3 hover:bg-red-900 text-center' ><Link to="/about" className='text-2xl text-white font-saint '>more about me</Link></button>
         <button className='flex items-center justify-center bg-redwood text-white cursor-pointer hover:bg-red-900 font-saint rounded px-3 text-2xl text-center'><MdOutlineFileDownload></MdOutlineFileDownload>resume</button>
         <div className='flex gap-2'>
           <Link to='https://github.com/SanjilaGangaju'><TbBrandGithub className="hover:text-red-900 cursor-pointer"/>
