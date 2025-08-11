@@ -6,6 +6,9 @@
     --color-redwood: #B0413E;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     background-color: #FFFFC7;
 }
