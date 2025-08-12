@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router'
+import Button from '../components/Button'
 
 const Projects = () => {
   return (
@@ -7,14 +9,27 @@ const Projects = () => {
 
        <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <div className='grid grid-cols-2 items-center justify-center gap-2'>
-          <p>AiResvue-Ai powered Resume Reviewer</p>
+          <div>
+            <p>AiResvue-Ai powered Resume Reviewer</p>
+
+           <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+
+          </div>
+          
            <div className=' border border-redwood shadow-lg rounded'>              
                 <img src='./src/assets/react-2.svg' className='w-full'></img>
 
           </div>
         </div>
           <div className='grid grid-cols-2  items-center justify-center gap-2'>
-            <p>NomYmm-Food Recipe App with Api Integration</p>
+            <div>
+              <p>NomYmm-Food Recipe App with Api Integration</p>
+               <Button text='source code' link="https://github.com/SanjilaGangaju/NomYm"></Button>
+
+
+
+            </div>
+            
              <div className='border border-redwood shadow-lg rounded'>
               
                 <img src='./src/assets/react-2.svg' className='w-full'></img>
@@ -25,7 +40,13 @@ const Projects = () => {
           <p></p>
         </div>
           <div className='grid grid-cols-2 items-center justify-center gap-2'>
-          <p>Oshune - Skincare Ecommerce Website wth Js</p>
+
+            <div>
+              <p>Oshune - Skincare Ecommerce Website wth Js</p>
+                <Button text='source code' link="https://github.com/SanjilaGangaju/Oshune"></Button>
+
+            </div>
+          
              <div className='border border-redwood shadow-lg rounded'>
               
                 <img src='./src/assets/react-2.svg' className='w-full'></img>
