@@ -7,49 +7,61 @@ const Projects = () => {
     <div className='text-center flex flex-col items-center justify-center p-8'>
         <h2 className='font-imperial text-redwood text-4xl font-semibold mb-8'>My projects</h2>
 
-       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-        <div className='grid grid-cols-2 items-center justify-center gap-2'>
+       <div className='grid grid-cols-1 gap-8'>
+        <div className='grid grid-cols-2 items-center justify-center'>
           <div>
-            <p>AiResvue-Ai powered Resume Reviewer</p>
+            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+           <div className='flex gap-2 items-center justify-center mt-3'>
+             <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+     
+           <Button text='demo' link="https://ai-resume-reviewer-six.vercel.app/"></Button>
+           </div>
+          
 
-           <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+          
 
           </div>
           
-           <div className=' border border-redwood shadow-lg rounded'>              
-                <img src='./src/assets/react-2.svg' className='w-full'></img>
+           <div className='outline-none shadow-lg w-[90%] rounded'>              
+                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
-          <div className='grid grid-cols-2  items-center justify-center gap-2'>
-            <div>
-              <p>NomYmm-Food Recipe App with Api Integration</p>
-               <Button text='source code' link="https://github.com/SanjilaGangaju/NomYm"></Button>
-
-
-
-            </div>
-            
-             <div className='border border-redwood shadow-lg rounded'>
-              
-                <img src='./src/assets/react-2.svg' className='w-full'></img>
-
-          </div>
-        </div>
+        <div className='grid grid-cols-2 items-center justify-center'>
           <div>
-          <p></p>
-        </div>
-          <div className='grid grid-cols-2 items-center justify-center gap-2'>
-
-            <div>
-              <p>Oshune - Skincare Ecommerce Website wth Js</p>
-                <Button text='source code' link="https://github.com/SanjilaGangaju/Oshune"></Button>
-
-            </div>
+            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+           <div className='flex gap-2 items-center justify-center mt-3'>
+             <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+     
+           <Button text='demo' link="https://ai-resume-reviewer-six.vercel.app/"></Button>
+           </div>
           
-             <div className='border border-redwood shadow-lg rounded'>
-              
-                <img src='./src/assets/react-2.svg' className='w-full'></img>
+
+          
+
+          </div>
+          
+           <div className='outline-none shadow-lg w-[90%] rounded'>              
+                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
+
+          </div>
+        </div>
+        <div className='grid grid-cols-2 items-center justify-center'>
+          <div>
+            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+           <div className='flex gap-2 items-center justify-center mt-3'>
+             <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+     
+           <Button text='demo' link="https://ai-resume-reviewer-six.vercel.app/"></Button>
+           </div>
+          
+
+          
+
+          </div>
+          
+           <div className='outline-none shadow-lg w-[90%] rounded'>              
+                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
