@@ -23,7 +23,7 @@ const Projects = ({darkMode}) => {
           </div>
           
            <div className='outline-none shadow-lg w-[90%] rounded'>              
-                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
+                <img src='./assets/resvuephoto.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
@@ -42,7 +42,7 @@ const Projects = ({darkMode}) => {
           </div>
           
            <div className='outline-none shadow-lg w-[90%] rounded'>              
-                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
+                <img src='./assets/resvuephoto.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
@@ -61,7 +61,7 @@ const Projects = ({darkMode}) => {
           </div>
           
            <div className='outline-none shadow-lg w-[90%] rounded'>              
-                <img src='./src/assets/resvuephoto.png' className='w-full object-cover rounded'></img>
+                <img src='./assets/resvuephoto.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
