@@ -12,3 +12,11 @@
 body{
     background-color: #FFFFC7;
 }
+.darkmode{
+    background-color: #290f0e;
+    color: #e9f5db;
+}
+.lightmode{
+    background-color: #FFFFC7;
+    color: #B0413E;
+}
