@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from 'react-router'
 import Button from '../components/Button'
 
-const Projects = () => {
+const Projects = ({darkMode}) => {
   return (
-    <div className='text-center flex flex-col items-center justify-center p-8'>
-        <h2 className='font-imperial text-redwood text-4xl font-semibold mb-8'>My projects</h2>
+    <div className={`text-center flex flex-col items-center justify-center p-8 ${darkMode?"darkmode": "lightmode"}`}>
+        <h2 className='font-imperial  text-4xl font-semibold mb-8'>My projects</h2>
 
        <div className='grid grid-cols-1 gap-8'>
         <div className='grid grid-cols-2 items-center justify-center'>
           <div>
-            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+            <p className='text-3xl   font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
            <div className='flex gap-2 items-center justify-center mt-3'>
              <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
      
@@ -29,7 +29,7 @@ const Projects = () => {
         </div>
         <div className='grid grid-cols-2 items-center justify-center'>
           <div>
-            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+            <p className='text-3xl   font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
            <div className='flex gap-2 items-center justify-center mt-3'>
              <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
      
@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
         <div className='grid grid-cols-2 items-center justify-center'>
           <div>
-            <p className='text-3xl text-redwood  font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
+            <p className='text-3xl   font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
            <div className='flex gap-2 items-center justify-center mt-3'>
              <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
      
