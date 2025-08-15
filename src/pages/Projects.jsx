@@ -31,9 +31,9 @@ const Projects = ({darkMode}) => {
           <div>
             <p className='text-3xl   font-semibold font-saint'>AiResvue-Ai powered Resume Reviewer</p>
            <div className='flex gap-2 items-center justify-center mt-3'>
-             <Button text='source code' link="https://github.com/SanjilaGangaju/AI-Resume-Reviewer"></Button>
+             <Button text='source code' link="https://github.com/SanjilaGangaju/NomYm"></Button>
      
-           <Button text='demo' link="https://ai-resume-reviewer-six.vercel.app/"></Button>
+           <Button text='demo' link="hhttps://nom-ym.vercel.app/"></Button>
            </div>
           
 
@@ -42,7 +42,7 @@ const Projects = ({darkMode}) => {
           </div>
           
            <div className='outline-none shadow-lg w-[90%] rounded'>              
-                <img src='./assets/resvuephoto.png' className='w-full object-cover rounded'></img>
+                <img src='./assets/nomyumm.png' className='w-full object-cover rounded'></img>
 
           </div>
         </div>
