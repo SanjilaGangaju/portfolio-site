@@ -17,12 +17,12 @@ const About = ({darkMode}) => {
           <hr className='w-1/2 border-2 '></hr>
         </div>
         <div className='grid grid-cols-3 md:grid-cols-4 gap-16 items-center p-10 justify-center'>
-          <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="src/assets/html-1.svg" className='w-[50%] '></img></div>
-         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="src/assets/css-3.svg" className='w-[50%]'></img></div>
-         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="src/assets/javascript-1.svg" className='w-[50%]'></img></div>
-        <div className='bg-yellow-100  rounded py-5 flex items-center justify-center'><img src="src/assets/react-2.svg" className='w-[50%]'></img></div>
-         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="src/assets/tailwind-css-2.svg" className='w-[50%]'></img></div>
-         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="src/assets/bootstrap-5-1.svg" className='w-[50%]'></img></div>
+          <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="./assets/html-1.svg" className='w-[50%] '></img></div>
+         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="./assets/css-3.svg" className='w-[50%]'></img></div>
+         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="./assets/javascript-1.svg" className='w-[50%]'></img></div>
+        <div className='bg-yellow-100  rounded py-5 flex items-center justify-center'><img src="./assets/react-2.svg" className='w-[50%]'></img></div>
+         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="./assets/tailwind-css-2.svg" className='w-[50%]'></img></div>
+         <div className='bg-yellow-100 rounded py-5 flex items-center justify-center'><img src="./assets/bootstrap-5-1.svg" className='w-[50%]'></img></div>
         </div>
        
       </div>  
