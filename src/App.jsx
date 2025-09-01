@@ -6,10 +6,14 @@ import About from "./pages/About"
 import Projects from "./pages/Projects"
 import './index.css';
 const App = () => {
-  const [darkMode, setdarkMode] = useState(localStorage.getItem("theme")||false)
-
+  const [darkMode, setdarkMode] = useState(()=>{
+    const savedTheme= localStorage.getItem("theme");
+    return savedTheme === "true"
+}
+  )
  useEffect(()=>{
-  localStorage.setItem("theme",darkMode)
+  localStorage.setItem("theme", darkMode)
+  console.log(darkMode)
  },[darkMode])
 
   return (

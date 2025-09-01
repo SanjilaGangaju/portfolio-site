@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { LiaToggleOffSolid } from "react-icons/lia";
 import { LiaToggleOnSolid } from 'react-icons/lia';
 
-const Navbar = ({darkMode, setdarkMode, saveDark}) => {
+const Navbar = ({darkMode, setdarkMode}) => {
   
   return (
     <div className={darkMode?"darkmode":"lightmode"}>
