@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router'
 import Home from "./pages/Home"
@@ -6,7 +6,12 @@ import About from "./pages/About"
 import Projects from "./pages/Projects"
 import './index.css';
 const App = () => {
-  const [darkMode, setdarkMode] = useState(false);
+  const [darkMode, setdarkMode] = useState(localStorage.getItem("theme")||false)
+
+ useEffect(()=>{
+  localStorage.setItem("theme",darkMode)
+ },[darkMode])
+
   return (
     <>
     

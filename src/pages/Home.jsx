@@ -7,12 +7,12 @@ import { GrLinkedinOption } from "react-icons/gr";
 const Home = ({ darkMode }) => {
   return (
     <div
-      className={`font-imperial  flex flex-col gap-7 text-center items-center pt-12 pb-6 min-h-screen ${
+      className={`font-imperial flex flex-col gap-17 text-center items-center pt-11 pb-6 h-[100vh] ${
         darkMode ? "darkmode" : "lightmode"
       }`}
     >
       <span
-        className=" text-6xl font-[500] text-left"
+        className=" text-8xl font-[500] text-left"
         data-aos="zoom-in"
         data-aos-duration="1500"
       >
@@ -25,21 +25,21 @@ const Home = ({ darkMode }) => {
         <span className="w-16">
           <hr></hr>
         </span>
-        <span>Frontend Developer in the Making</span>
+        <span className="text-2xl"> Frontend Developer in the Making</span>
         <span className="w-16">
           <hr></hr>
         </span>
       </div>
-      <div className="flex gap-5 w-full items-center justify-center cursor-pointer">
+      <div className="flex gap-8 w-full items-center justify-center cursor-pointer">
         <button className="bg-redwood rounded px-3 hover:bg-red-900 text-center">
-          <Link to="/about" className="text-2xl text-white font-saint ">
+          <Link to="/about" className="text-3xl text-white font-saint ">
             more about me
           </Link>
         </button>
-        <button className="flex items-center justify-center bg-redwood text-white cursor-pointer hover:bg-red-900 font-saint rounded px-3 text-2xl text-center">
+        <button className="flex items-center justify-center bg-redwood text-white cursor-pointer hover:bg-red-900 font-saint rounded px-3 text-3xl text-center">
           <MdOutlineFileDownload></MdOutlineFileDownload>resume
         </button>
-        <div className="flex gap-2">
+        <div className="flex gap-10">
           <Link to="https://github.com/SanjilaGangaju">
             <TbBrandGithub className="hover:text-red-900 cursor-pointer" />
           </Link>

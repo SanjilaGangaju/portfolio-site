@@ -3,7 +3,8 @@ import { Link } from 'react-router'
 import { LiaToggleOffSolid } from "react-icons/lia";
 import { LiaToggleOnSolid } from 'react-icons/lia';
 
-const Navbar = ({darkMode, setdarkMode}) => {
+const Navbar = ({darkMode, setdarkMode, saveDark}) => {
+  
   return (
     <div className={darkMode?"darkmode":"lightmode"}>
     <div className='flex items-center justify-center gap-10 px-9 pt-5'>
